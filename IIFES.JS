@@ -1,0 +1,7 @@
+(()=>{
+    var a=Number(prompt("Enter value 1"));
+    let b=Number(prompt("Enter value 2"));
+    const c=Number(prompt("Enter value 3"));
+
+    alert("sum of number:" + (a+b+c))
+})()
