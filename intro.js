@@ -59,24 +59,24 @@
 // }
 // console.log(str)
 
-let n=prompt("Enter the number");
-for(let i=1;i<=n;i++){
-    let str=""
-    for(let j=1;j<=i;j++){
-         str+="* "
-    }
-    console.log(str);
-}
+// let n=prompt("Enter the number");
+// for(let i=1;i<=n;i++){
+//     let str=""
+//     for(let j=1;j<=i;j++){
+//          str+="* "
+//     }
+//     console.log(str);
+// }
 
 ///
-let s="leetcode"
-var firstUniqChar = function(s) {
-let map=new Map()
-for(let i=0;i<s.length;i++){
-    if(map.has(s-[i])){
+// let s="leetcode"
+// var firstUniqChar = function(s) {
+// let map=new Map()
+// for(let i=0;i<s.length;i++){
+//     if(map.has(s-[i])){
      
-    }else{
-        return
-    }
-}
-}
+//     }else{
+//         return
+//     }
+// }
+// }
