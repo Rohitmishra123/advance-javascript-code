@@ -100,16 +100,25 @@
 
 //reverse array without extra array
 
-let arr=[1,2,3,4,5,6,7,8];
-let start=0;
-let end=arr.length-1;
+// let arr=[1,2,3,4,5,6,7,8];
+// let start=0;
+// let end=arr.length-1;
 
-while(start<end)
+// while(start<end)
+// {
+//     let temp=arr[start];
+//     arr[start]=arr[end];
+//     arr[end]=temp;
+//     start++;
+//     end--
+// }
+// console.log(arr)
+
+
+let n=123456789
+let sum=0
+for(let i=0;i<=n;i++)
 {
-    let temp=arr[start];
-    arr[start]=arr[end];
-    arr[end]=temp;
-    start++;
-    end--
+    sum+=i
 }
-console.log(arr)
+console.log(sum)

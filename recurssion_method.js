@@ -1,6 +1,6 @@
 // function fact(n){
 //     if(n==0)
-//         return 1
+//     return 1
 //     return n*fact(n-1)
 // }
 // console.log(fact(5))
@@ -72,7 +72,7 @@
 // console.log(str===reversestring(str))
 
 
-// prime number with recurssion se krne ke liye ye logic implement krna hai
+//prime number with recurssion se krne ke liye ye logic implement krna hai
 // function isprime(n,i=2)
 // {
 //     if(n<=1)

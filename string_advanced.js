@@ -136,32 +136,92 @@
 
 // words count krna hai ki 1 string me kitne words hai
 
-let str1="Hello How are you rohit";
-let count=1;
-for(let i=0;i<str1.length;i++)
-{
-    if(str1[i]==" ")
-    {
-        count++
-    }
-}
-console.log(count)
+// let str1="Hello How are you rohit";
+// let count=1;
+// for(let i=0;i<str1.length;i++)
+// {
+//     if(str1[i]==" ")
+//     {
+//         count++
+//     }
+// }
+// console.log(count)
 
 // count krna hai word ki kitne baar aya hai 1 word pure string mai frequeny niklna hai
 
-let str="rohit mishra";
-let obj={};
+// let str="rohit mishra";
+// let obj={};
+// for(let i=0;i<str.length;i++)
+// {
+//     let char=str[i];
+//     if(char !=="")
+//     {
+//         if(obj[char])
+//         {
+//             obj[char]++
+//         }else{
+//             obj[char]=1
+//         }
+//     }
+// }
+// console.log(obj)
+
+// Duplicate words remove krna hai 1 strings mai se
+
+// let str="programming"
+// let uniqe="";
+// for(let i=0;i<str.length;i++)
+// {
+//     let char=str[i];
+ 
+//   if(!uniqe.includes(str[i]))
+//   {
+//     uniqe+=char
+//   }
+// }
+// console.log(uniqe)
+
+// this is the inbulit features in js remove the duplicate value in this string
+// let str1="rohitt";
+// let unique=[...new Set(str1)].join("");
+// console.log(unique)
+// console.log(unique);
+
+
+//anagram check krna hai
+
+// let str="listen";
+// let str1="silent";
+// if(str.length !==str1.length)
+// {
+//   console.log(false)
+// }else{
+//   let s1=str.split("").sort().join("");
+//   let s2=str1.split("").sort().join("");
+
+//   console.log(s1==s2)
+// }
+
+
+
+// duplicate remove the string with this method
+let str="abbacccdeede";
+let duplicate="";
 for(let i=0;i<str.length;i++)
 {
-    let char=str[i];
-    if(char !=="")
-    {
-        if(obj[char])
-        {
-            obj[char]++
-        }else{
-            obj[char]=1
-        }
-    }
+  let ch=str[i];
+  let found=false;
+
+ for(let j=0;j<str.length;j++)
+ {
+  if(duplicate[j]==ch){
+    found=true;
+    break;
+  }
+ }
+ if(found==false)
+ {
+  duplicate+=ch
+ }
 }
-console.log(obj)
+console.log(duplicate)

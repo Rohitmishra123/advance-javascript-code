@@ -48,20 +48,20 @@
 
 // moves zero to array end
 
-// let arr3=[1,0,2,0,3,0,4];
-// let moveZero=0;
-// for(let i=0;i<arr3.length;i++)
-// {
-//     if(arr3[i] !==0)
-//     {
-//       arr3[moveZero++]=arr3[i]  
-//     }
-// }
-// while(moveZero<arr3.length)
-// {
-//     arr3[moveZero++]=0
-// }
-// console.log(arr3)
+let arr3=[1,0,2,0,3,0,4];
+let moveZero=0;
+for(let i=0;i<arr3.length;i++)
+{
+    if(arr3[i] !==0)
+    {
+      arr3[moveZero++]=arr3[i]  
+    }
+}
+while(moveZero<arr3.length)
+{
+    arr3[moveZero++]=0
+}
+console.log(arr3)
 
 
 // array me diya gya string aur number dono ko alg alg print krna hai
@@ -154,14 +154,32 @@
 // }
 // console.log(obj1)
 
-function greet(callback)
-{
+// function greet(callback)
+// {
  
-  console.log("Hi")
-  callback()
-}
-function sayHi()
-{
-  console.log("Hello")
-}
-greet(sayHi)
+//   console.log("Hi")
+//   callback()
+// }
+// function sayHi()
+// {
+//   console.log("Hello")
+// }
+// greet(sayHi)
+
+
+// agr negtive value remove krna hai to array me se
+// let arr=[2,-1,3,-5,4];
+// let ans=[];
+// for(let i=0;i<arr.length;i++)
+// {
+//   if(arr[i]>0)
+//   {
+//     ans.push(arr[i])
+//   }
+// }
+// console.log(ans)
+
+// filter method se ye hoga
+// let arr=[2,-3,5,-1,4];
+// let ans=arr.filter(x=>x>0)
+// console.log(ans)
